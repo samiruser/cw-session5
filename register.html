@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+	<form action="register_backend.php" method="get">
+
+		<Label>Name:</Label>
+		<input type="text" name="my_name" />
+
+		<br>
+
+		<Label>Email:</Label>
+		<input type="email" name="my_email" />
+
+		<br>
+
+		<Label>Age:</Label>
+		<input type="number" name="my_age" />
+
+		<br>
+
+		<button type="submit">Send</button>
+
+	</form>
+
+
+	<a href="register_backend.php?my_age=30&my_name=Ali">My Age Will be Sent Through link</a>
+
+	<a href="delete.php?filename=my_image.jpg">Delete</a>
+
+</body>
+</html>
